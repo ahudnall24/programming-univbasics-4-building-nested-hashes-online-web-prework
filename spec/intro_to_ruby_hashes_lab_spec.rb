@@ -3,8 +3,7 @@ require_relative '../intro_to_ruby_hashes_lab.rb'
 
 describe NFL _Teams
  do
-  describe "AFC_South_teams" do
-    it "has_four_teams" do
+  describe " do
       expect(base_hash.keys.count).to(eq(1), "Houston Texans", "Indianapolis Colts", "Jacksonville Jaguars", "Tennessee Titans"
 
 
