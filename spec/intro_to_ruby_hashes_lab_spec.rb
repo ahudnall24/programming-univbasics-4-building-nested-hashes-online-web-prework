@@ -1,10 +1,11 @@
 require_relative 'spec_helper'
 require_relative '../intro_to_ruby_hashes_lab.rb'
 
-describe "We can create complex, nested Hashes by implementing four methods:" do
-  describe "the base_hash method returns a Hash that" do
-    it "has one key" do
-      expect(base_hash.keys.count).to(eq(1), "Make sure you have at least one key defined in the monopoly hash")
+describe nfl teams
+ do
+  describe "AFC_teams" do
+    it "has_sixteen_teams" do
+      expect(base_hash.keys.count).to(eq(1), "")
     end
 
     it "the one key is called :railroads" do
