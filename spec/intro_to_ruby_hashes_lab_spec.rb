@@ -5,10 +5,9 @@ describe NFL _Teams
  do
   describe "AFC_South_teams" do
     it "has_four_teams" do
-      expect(base_hash.keys.count).to(eq(1), "
-West Division: Denver Broncos, Kansas City Chiefs, Oakland Raiders, San Diego Chargers
+      expect(base_hash.keys.count).to(eq(1), "Houston Texans", "Indianapolis Colts", "Jacksonville Jaguars", "Tennessee Titans"
 
-North Division: Baltimore Ravens, Cincinnati Bengals, Cleveland Browns, Pittsburgh Steelers")
+
     end
 
     it "the one key is called :railroads" do
